@@ -1,4 +1,3 @@
-
 # install node.js
 sudo apt-get install --yes curl
 curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
@@ -17,7 +16,7 @@ sudo echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/
 sudo apt-get update
 
 # 4. Install Spotify
-sudo apt-get install spotify-client
+sudo apt-get install -y spotify-client
 
 # get dropbox key
 sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
@@ -27,4 +26,4 @@ sudo sh -c 'echo "deb http://linux.dropbox.com/ubuntu/ trusty main" >> /etc/apt/
 
 sudo apt-get update
 
-sudo apt-get install dropbox nemo-dropbox
+sudo apt-get install -y dropbox nemo-dropbox

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-figlet "Dogmeat fetch"
+echo "Dogmeat fetch"
 
 # add-apt-repository in sequence
 readarray -t ppas < ppa.txt # Exclude newline.
@@ -16,11 +16,14 @@ sudo apt-get update
 
 # apt-get install
 readarray -t packages < packages.txt # Exclude newline.
-sudo apt-get install ${packages[*]}
+sudo apt-get install -y ${packages[*]}
+echo "---------------------------------------------------------------------#";
 
 # custom
 ./custom.sh
+echo "---------------------------------------------------------------------#";
 
 # apm install
 readarray -t atompackages < atom-packages.txt # Exclude newline.
-apm install ${atom-packages[*]}
+apm install ${atompackages[*]}
+echo "---------------------------------------------------------------------#";

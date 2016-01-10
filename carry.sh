@@ -1,7 +1,7 @@
 #!/bin/bash
 declare -a files=("atom-packages.txt" "npm-globals.txt" "packages.txt" "ppa.txt")
 
-figlet "Dogmeat carry"
+echo "Dogmeat carry"
 
 for i in ${files[*]}
 do
