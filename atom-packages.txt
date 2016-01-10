@@ -7,3 +7,4 @@ minimap
 multi-cursor
 seti-ui
 vim-mode
+wordcount

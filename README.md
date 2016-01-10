@@ -10,4 +10,4 @@ A bunch of shell scripts to carry all your common packages around, each time you
 ./fetch.sh
 ```
 
-![](http://vollzeitblogger.de/wp-content/uploads/2015/06/corgi-welsh-corgi-theodor.jpg)
+![](http://jonathanmh.com/wp-content/uploads/2016/01/dogmeat.jpg)
