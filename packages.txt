@@ -1,0 +1,15 @@
+atom
+copy
+curl
+dropbox
+git
+git-core
+ia32-libs
+nemo-dropbox
+shutter
+software-properties-common
+vim
+wine1.7
+winetricks
+xclip
+zsh

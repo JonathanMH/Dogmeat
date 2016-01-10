@@ -1,0 +1,5 @@
+babel-cli
+gulp
+markdown-pdf
+marked
+typescript
