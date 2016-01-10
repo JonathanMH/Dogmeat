@@ -18,3 +18,13 @@ sudo apt-get update
 
 # 4. Install Spotify
 sudo apt-get install spotify-client
+
+# get dropbox key
+sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+
+# add dropbox repository
+sudo sh -c 'echo "deb http://linux.dropbox.com/ubuntu/ trusty main" >> /etc/apt/sources.list.d/dropbox.list'
+
+sudo apt-get update
+
+sudo apt-get install dropbox nemo-dropbox
