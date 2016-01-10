@@ -3,7 +3,9 @@ copy
 curl
 git
 git-core
+graphicsmagick
 ia32-libs
+imagemagick
 shutter
 software-properties-common
 vim

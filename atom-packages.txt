@@ -2,6 +2,7 @@ atom-monokai
 atom-ternjs
 atom-typescript
 ex-mode
+markdown-live
 minimap
 multi-cursor
 seti-ui
