@@ -6,6 +6,7 @@ git-core
 graphicsmagick
 ia32-libs
 imagemagick
+kupfer
 shutter
 software-properties-common
 vim
