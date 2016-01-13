@@ -11,3 +11,9 @@ A bunch of shell scripts to carry all your common packages around, each time you
 ```
 
 ![](http://jonathanmh.com/wp-content/uploads/2016/01/dogmeat.jpg)
+
+## included packages
+Read these files:
+```
+files=("atom-packages.txt" "npm-globals.txt" "packages.txt" "ppa.txt")
+```

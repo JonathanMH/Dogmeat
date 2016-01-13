@@ -1,5 +1,7 @@
 babel-cli
 gulp
+markdown-live
 markdown-pdf
 marked
+react-tools
 typescript

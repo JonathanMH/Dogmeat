@@ -1,3 +1,4 @@
+ppa:birdie-team/stable
 ppa:hansjorg/rust
 ppa:paolorotolo/copy
 ppa:ubuntu-mozilla-daily/firefox-aurora

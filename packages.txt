@@ -1,4 +1,6 @@
 atom
+birdie
+build-essential
 copy
 curl
 git

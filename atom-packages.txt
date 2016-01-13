@@ -1,10 +1,11 @@
-atom-monokai
 atom-ternjs
 atom-typescript
 ex-mode
 markdown-live
 minimap
+monokai
 multi-cursor
 seti-ui
 vim-mode
 wordcount
+zen
