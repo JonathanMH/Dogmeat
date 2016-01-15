@@ -3,12 +3,14 @@ birdie
 build-essential
 copy
 curl
+g++
 git
 git-core
 graphicsmagick
 ia32-libs
 imagemagick
 kupfer
+python3-dev
 shutter
 software-properties-common
 vim

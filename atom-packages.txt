@@ -3,7 +3,7 @@ atom-typescript
 ex-mode
 markdown-live
 minimap
-monokai
+monokai-seti
 multi-cursor
 seti-ui
 vim-mode
