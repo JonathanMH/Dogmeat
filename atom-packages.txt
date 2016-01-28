@@ -1,10 +1,10 @@
 atom-ternjs
 atom-typescript
 ex-mode
-markdown-live
 minimap
 monokai-seti
 multi-cursor
+remote-ftp
 seti-ui
 vim-mode
 wordcount

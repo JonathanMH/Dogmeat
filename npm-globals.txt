@@ -5,4 +5,5 @@ markdown-live
 markdown-pdf
 marked
 react-tools
+resume-cli
 typescript

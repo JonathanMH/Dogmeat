@@ -7,7 +7,7 @@ for i in ${files[*]}
 do
   echo 'sorting and uniquifying:' $i;
   mv $i $i.tmp
-  cat $i.tmp | sort | uniq -u > $i;
+  cat $i.tmp | sort -u > $i;
   rm $i.tmp
   echo "---------------------------------------------------------------------#";
 done
