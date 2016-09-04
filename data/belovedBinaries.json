@@ -1,0 +1,28 @@
+{
+  "linux": [
+    "atom",
+    "build-essential",
+    "ia32-libs"
+    "shutter",
+    "software-properties-common",
+    "wine1.7",
+    "xclip",
+    "libicu-dev",
+    "python3-dev"
+  ],
+  "mac": [
+  ],
+  "universal": [
+    "wget",
+    "ruby",
+    "zsh",
+    "tree",
+    "vim",
+    "imagemagick",
+    "graphicsmagick",
+    "htop",
+    "ffmpeg",
+    "jq",
+    "sift"
+  ]
+}

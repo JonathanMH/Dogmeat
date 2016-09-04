@@ -1,0 +1,7 @@
+[
+  "ppa:birdie-team/stable",
+  "ppa:hansjorg/rust",
+  "ppa:ubuntu-mozilla-daily/firefox-aurora",
+  "ppa:ubuntu-wine/ppa",
+  "ppa:webupd8team/atom"
+]

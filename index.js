@@ -1,3 +1,4 @@
+'use strict';
 // core
 var fs = require( 'fs' );
 var os = require( 'os' );
@@ -16,19 +17,22 @@ var filesICareAbout = [
 var directoriesICareAbout = [];
 
 var apmPackagesFilename = 'packages.list';
-
 var apmExportCommand = 'apm list --installed --bare >'; // plus filename
 var apmInstallCommand = 'apm install --packages-file'; // plus filename
+var aptPpaAddCommand = `sudo add-apt-repository ${ppa} --yes`
 
 console.log( argv._ );
 console.log( argv._.indexOf('carry') > -1 );
 console.log( __dirname );
 
+var ppa = 'ppa:birdie-team/stable';
+execute( aptPpaAddCommand, function( stdout ){
+  console.log('done');
+} )
+
 var dogmeat = {};
 
 // figure out OS
-
-
 
 dogmeat.carry = function(){
 	// @TODO: pack up all my stuff
@@ -44,6 +48,7 @@ dogmeat.carry = function(){
     */
   } );
 }
+
 if ( argv._.indexOf('carry') > -1 ){
   console.log('carry')
   dogmeat.carry();
@@ -62,6 +67,7 @@ function getUserHome() {
 
 function execute( command, callback ){
   exec( command, function( error, stdout, stderr ){
+    console.log( error, stdout, stderr );
     callback( stdout );
   } );
 };

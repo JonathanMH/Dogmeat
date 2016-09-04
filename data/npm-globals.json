@@ -1,0 +1,11 @@
+[
+  "babel-cli",
+  "dat",
+  "gulp-cli",
+  "markdown-live",
+  "markdown-pdf",
+  "marked",
+  "react-tools",
+  "resume-cli",
+  "typescript"
+]
