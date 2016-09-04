@@ -15,21 +15,28 @@ var filesICareAbout = [
 
 var directoriesICareAbout = [];
 
-var apmExportCommand = 'apm list --installed --bare > package-list.txt';
+var apmPackagesFilename = 'packages.list';
 
-console.dir(argv);
+var apmExportCommand = 'apm list --installed --bare >'; // plus filename
+var apmInstallCommand = 'apm install --packages-file'; // plus filename
+
+console.log( argv._ );
+console.log( argv._.indexOf('carry') > -1 );
+console.log( __dirname );
 
 var dogmeat = {};
 
 // figure out OS
 
-if ( argv.carry ){
-  dogmeat.carry();
-}
 
 
 dogmeat.carry = function(){
+	// @TODO: pack up all my stuff
   fs.mkdir( 'data', function dataCreated(){
+    console.log( 'packing apm packages' );
+    execute( apmExportCommand + ' ' + __dirname + '/data/' + apmPackagesFilename, function postExecute( stdout ){
+      console.log( stdout );
+    } );
     /*
     fs.writeFileSync(
       targetFile, fs.readFileSync(sourceFile)
@@ -37,13 +44,24 @@ dogmeat.carry = function(){
     */
   } );
 }
+if ( argv._.indexOf('carry') > -1 ){
+  console.log('carry')
+  dogmeat.carry();
+}
+
+dogmeat.fetch = function(){
+  // @TODO: get all my stuff
+  // apm install
+
+
+}
 
 function getUserHome() {
   return process.env.HOME || process.env.USERPROFILE;
 }
 
-function execute(command, callback){
+function execute( command, callback ){
   exec( command, function( error, stdout, stderr ){
-    callback(stdout);
+    callback( stdout );
   } );
 };
