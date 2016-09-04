@@ -1,0 +1,24 @@
+{
+  "name": "Dogmeat",
+  "version": "1.0.0",
+  "description": "A bunch of shell scripts to carry all your common packages around, each time you re-install your system. It's a little like [boxen](https://github.com/boxen/our-boxen/#our-boxen) from Github.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanMH/Dogmeat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanMH/Dogmeat/issues"
+  },
+  "homepage": "https://github.com/JonathanMH/Dogmeat#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "minimist": "^1.2.0"
+  }
+}
